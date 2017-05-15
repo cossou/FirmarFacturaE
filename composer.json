@@ -1,0 +1,22 @@
+{
+	"name": "cossou/FirmarFacturaE",
+	"description": "PHP bridge to Sign FacturaE XMLs",
+	"license": "MIT",
+	"keywords": [
+		"facturae",
+		"pdf",
+		"java"
+	],
+	"homepage": "https://github.com/cossou/FirmarFacturaE",
+	"authors": [
+		{
+			"name": "Hélder Duarte",
+			"email": "cossou@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"FirmarFacturae": "src/"
+		}
+	}
+}
