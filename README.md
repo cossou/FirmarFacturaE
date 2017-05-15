@@ -6,15 +6,23 @@ Sign a FacturaE XML with a certificate (`.p12`).
 
 Creates a signed XML `.xsig` file with a correspondent certificate in the same directory as the XML file.
 
+### Install
+
+Use composer:
+
+```
+$ composer require cossou/firmar-factura-e:dev-master
+```
+
 ### Example
 
 ```php
 <?php
 
-$ff = new FirmarFacturae;
+$firmador = new FirmarFacturaE\Firmar;
 
 try {
-    $file = $ff->firmar('invoice.xml', 'cert.p12', 'password');
+    $file = $firmador->firmar('invoice.xml', 'cert.p12', 'password');
 } catch (Exception $e) {
     echo $e->getMessage();
 }

@@ -3,13 +3,13 @@
  * Copyright (c) 2017.
  */
 
-namespace FirmarFacturae;
+namespace FirmarFacturaE;
 
 /**
- * Class FirmarFacturae
- * @package FirmarFacturae
+ * Class Firmador
+ * @package Firmador
  */
-class FirmarFacturae
+class Firmador
 {
     /**
      * @var string
