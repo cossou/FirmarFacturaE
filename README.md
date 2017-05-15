@@ -19,7 +19,7 @@ $ composer require cossou/firmar-factura-e:dev-master
 ```php
 <?php
 
-$firmador = new FirmarFacturaE\Firmar;
+$firmador = new FirmarFacturaE\Firmador;
 
 try {
     $file = $firmador->firmar('invoice.xml', 'cert.p12', 'password');
