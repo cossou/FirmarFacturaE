@@ -1,5 +1,5 @@
 {
-	"name": "cossou/FirmarFacturaE",
+	"name": "cossou/firmar-factura-e",
 	"description": "PHP bridge to Sign FacturaE XMLs",
 	"license": "MIT",
 	"keywords": [
