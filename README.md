@@ -6,6 +6,8 @@ Sign a FacturaE XML with a certificate (`.p12`).
 
 Creates a signed XML `.xsig` file with a correspondent certificate in the same directory as the XML file.
 
+NOTE: The file is created in the same directory of the XML file with the `.xsig` appended to the end of filename.
+
 ### Install
 
 Use composer:
@@ -27,7 +29,7 @@ try {
     echo $e->getMessage();
 }
 
-echo $file; // 'invoice.xml.xsig' (only path)
+echo $file; // 'path/to/invoice.xml.xsig' (no content only path)
 
 ```
 
